@@ -10,6 +10,6 @@ do
 		echo $j
 		((j++));
 	done
-	j=0
+	j=1
 	((i++));
 done
