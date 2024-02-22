@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+i=$(ls)
+for j in $i; do echo "$j" | cut -d "_" -f2-; done
