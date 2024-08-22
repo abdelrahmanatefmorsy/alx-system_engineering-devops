@@ -1,4 +1,4 @@
-# task0
+# Increase
 
 # Increase
 exec { 'fix--for-nginx':
@@ -6,7 +6,7 @@ exec { 'fix--for-nginx':
   path    => '/usr/local/bin/:/bin/'
 } ->
 
-#  rest
+#  Restart
 exec { 'nginx-restart':
   command => 'nginx restart',
   path    => '/etc/init.d/'
